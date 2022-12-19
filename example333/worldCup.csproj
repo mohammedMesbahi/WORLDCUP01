@@ -134,6 +134,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>worldcupDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="worldcupDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>worldcupDataSet4.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,6 +226,17 @@
     </None>
     <None Include="worldcupDataSet3.xss">
       <DependentUpon>worldcupDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="worldcupDataSet4.xsc">
+      <DependentUpon>worldcupDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="worldcupDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>worldcupDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="worldcupDataSet4.xss">
+      <DependentUpon>worldcupDataSet4.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
