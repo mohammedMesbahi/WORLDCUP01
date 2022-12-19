@@ -44,5 +44,11 @@ namespace example333
             UC_ModifieTeam uC_ModifieTeam = new UC_ModifieTeam();
             addUserControle(uC_ModifieTeam);
         }
+
+        private void btnSimulateWC_Click(object sender, EventArgs e)
+        {
+            UC_SimulateWorldCup uC_SimulateWorldCup = new UC_SimulateWorldCup();
+            addUserControle(uC_SimulateWorldCup);
+        }
     }
 }

@@ -102,6 +102,7 @@ namespace example333
             this.btnSimulateWC.Size = new System.Drawing.Size(303, 45);
             this.btnSimulateWC.TabIndex = 2;
             this.btnSimulateWC.Text = "Simulate World Cup";
+            this.btnSimulateWC.Click += new System.EventHandler(this.btnSimulateWC_Click);
             // 
             // btnDisplayTeams
             // 

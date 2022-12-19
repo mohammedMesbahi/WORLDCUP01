@@ -108,6 +108,12 @@
     <Compile Include="UserControls\UC_DisplayAllTeams.Designer.cs">
       <DependentUpon>UC_DisplayAllTeams.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UC_SimulateWorldCup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_SimulateWorldCup.Designer.cs">
+      <DependentUpon>UC_SimulateWorldCup.cs</DependentUpon>
+    </Compile>
     <Compile Include="worldcupDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UC_DisplayAllTeams.resx">
       <DependentUpon>UC_DisplayAllTeams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_SimulateWorldCup.resx">
+      <DependentUpon>UC_SimulateWorldCup.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
